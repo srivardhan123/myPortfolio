@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,19 +12,20 @@
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
 </head>
+
 <body>
     <!-- header design -->
     <header class="header top">
         <a href="#" class="logo">Srivardhan's <span>Portfolio</span></a>
         <div class="bx bx-menu" id="menu-icon"></div>
-    <nav class="navbar">
-        <a href="#home" class="active">Home</a>
-        <a href="#about">About me</a>
-        <a href="#experience">Experience</a>
-        <a href="#project">Projects</a>
-        <a href="#tech-stack">Skills and Achievements</a>
-        <a href="#portfolio">Education</a>
-    </nav>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About me</a>
+            <a href="#experience">Experience</a>
+            <a href="#project">Projects</a>
+            <a href="#tech-stack">Skills and Achievements</a>
+            <a href="#portfolio">Education</a>
+        </nav>
     </header>
 
     <!-- home section design -->
@@ -32,14 +34,16 @@
             <div class="home-content left">
                 <h1>Hi, <br> I'm <span>Srivardhan Rao</span></h1>
                 <h3 class="text-animate"><span class="multiple-text"></span></h3>
-                <p>Software Developer at Juspay, Ex-SDE Intern @Mathworks, Full Stack Developer, Competitive Programmer, IIT Patna Alumnus </p>
+                <p>Software Developer at Flexport, Ex-SDE @Juspay, Ex-SDE Intern @Mathworks, Full Stack Developer, IIT Patna Alumnus </p>
                 <div class="btn-box">
-                    <a href="https://drive.google.com/file/d/19BbK2Wgrq7hkwfB4GonWAbazEGaETYzn/view?usp=drive_link" class="btn" target="_blank">My Resume</a>
+                    <a href="https://drive.google.com/file/d/19BbK2Wgrq7hkwfB4GonWAbazEGaETYzn/view?usp=drive_link"
+                        class="btn" target="_blank">My Resume</a>
                 </div>
             </div>
-            
+
             <div class="home-sci">
-                <a href="https://www.linkedin.com/in/srivardhan-rao-978556225/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/srivardhan-rao-978556225/" target="_blank"><i
+                        class="bx bxl-linkedin"></i></a>
                 <a href="https://github.com/srivardhan123" target="_blank"><i class='bx bxl-github'></i></a>
             </div>
         </div>
@@ -52,7 +56,7 @@
 
     <!-- about section design -->
     <section class="about" id="about">
-        
+
         <div class="about-img left">
             <img src="./assets/me.jpeg" alt="" class="about-img-2">
             <span class="circle-spin"></span>
@@ -63,7 +67,16 @@
             <div class="about-content">
                 <h3>Software Engineer</h3>
                 <!-- <p>Meet the coding virtuoso who turns logic into art! 🚀 A proud IIT Patna 2024 graduate, this software engineer at Juspay doesn't just code—he architects digital marvels. From mastering C++ and Docker at MathWorks to conquering the full-stack realm with ReactJS, ReScript, and Haskell, he’s a powerhouse of innovation. SQL bends to his will, JavaScript dances at his fingertips, and Linux is his second home. Whether it's functional programming wizardry or orchestrating seamless systems, he's the tech maestro pushing boundaries one commit at a time! 💻🔥 </p> -->
-                 <p>I am a software engineer at Juspay and an IIT Patna 2024 graduate with a passion for building scalable and efficient systems. With hands-on experience at MathWorks in C++, Docker, and Linux, I have developed a strong foundation in system architecture and software development. I specialize in full-stack development, leveraging technologies like ReactJS, ReScript, NodeJS, Haskell, MongoDB and SQL to create seamless and high-performance applications. Combining functional programming with modern web technologies, I thrive on solving complex problems and pushing the boundaries of innovation.</p>
+                <p>I am a software engineer at Flexport (Deliverr) and an IIT Patna 2024 graduate, with ~2.4 years of
+                    experience building scalable backend, full-stack, and platform systems.
+                    Previously I worked as an SDE at Juspay and interned at MathWorks. I specialize in designing
+                    event-driven, distributed architectures on AWS (Lambda, SQS, SNS, Kinesis, ECS, RDS),
+                    building high-performance APIs and full-stack applications with ReactJS, ReScript, NodeJS,
+                    TypeScript, Haskell, Python, Java, MongoDB, and SQL.
+                    More recently I’ve been working on AI/MCP-based systems. Combining functional programming with
+                    modern web technologies and strong system-design fundamentals,
+                    I thrive on solving complex problems and building reliable systems at scale.
+                </p>
             </div>
         </div>
     </section>
@@ -76,53 +89,96 @@
 
                 <div class="education-content">
                     <div class="content">
-                        <div class="year"><i class="bx bxs-calendar"></i>July 2024 - Present</div>
-                        <h3> Software Engineer - JUSPAY</h3>
+                        <div class="year"><i class="bx bxs-calendar"></i>July 2025 - Present </div>
+                        <h3> Software Engineer - FLEXPORT </h3>
                         <p>
-                            <ul> 
-                                <li>Worked on the Gateways Module of the EC Dashboard, allowing merchants to configure multiple payment
-                                    gateways based on real-time availability</li>
-                                <li>Full-stack developer specializing in building scalable, high-performance payment solutions for the fintech industry. </li>
-                                <li>Designed a configurable Maker-Checker workflow in Haskell API middleware, enabling seamless collaboration
-                                    for critical operations. Built a system to store maker requests in the database and replay them for processing upon
-                                    approval, reducing human errors by 77%.</li>
-                                <li>Using Python, and AWS S3 Bucket, built a dynamic system to upload and store images/videos for gateway
-                                    keys, the S3 links generated were displayed to the merchants during configuration, reducing human errors by 99%</li>
-                                <li>Revamped the frontend architecture using ReactJS to support dynamic gateway configuration just via database
-                                    entries, replacing hardcoded logic and enabling a scalable, no-code setup process.</li>
-                                <li>Developed a Synchronous API to get the most recent Mandates and Payment Methods from gateways, ensuring consistent information across the payment gateway and Juspay EC-Dashboard, reducing transaction dropout rates
-                                    by 100%.</li>
-                                <li>Integrated Multiple Gatewyays into EC-Dashboard: Tabby, PineLabs Online, Airwallex, Payfort, TwoCTwop and ApplePay Native</li>
-                                <li> Enhanced Gateway Schema API to dynamically configure merchant fields with internal checks, editable options,
-                                and secure masking of sensitive keys like secrets, ensuring robust governance and data security.</li>
-                                <li>Tech Stack & Learnings: ReactJS, Haskell, Python, JavaScript, Java, Rescript, SQL.</li>
-                            </ul>
+                        <ul>
+                            <li>Working on Flexport's Inbounds platform, which powers how merchants send inventory into
+                                fulfillment warehouses — inbound creation, dock/unloading operations, receiving, and
+                                billing across US & Canada.</li>
+                            <li>Led core warehouse flows end-to-end for a new Canada warehouse launch — inbound intake,
+                                receiving, dock operations, and non-compliance — from design to production, now handling
+                                ~200K units/day.</li>
+                            <li>Migrated API Lambdas to ECS and all other Lambdas from x86_64 to Graviton (ARM64) (~20%
+                                cheaper, ~19% faster, multiple services), and downsized the RDS database instance —
+                                cutting AWS costs by ~$29K/year.</li>
+                            <li>Delivered unbundled billing end-to-end via an event-driven CDC pipeline (MySQL binlog →
+                                Kinesis → SNS → SQS → Lambda), automating receiving, unloading, and non-compliance fees
+                                and replacing a 4-day manual ops process each cycle.</li>
+                            <li>Designed the ExecuteAsync framework (SQS + worker Lambda) that runs long-running APIs as
+                                async queued jobs with guaranteed execution, idempotency, and job tracking — solving API
+                                Gateway 30s-timeout failures.</li>
+                            <li>Built Veera, Flexport's AI Slack assistant that orchestrates MCP tools via Claude, using
+                                an SQS FIFO async pipeline to reliably run long AI/tool calls without hitting Slack's 3s
+                                / API-Gateway 30s timeout limits.</li>
+                            <li>Build and maintain inbound creation across US & Canada warehouses via public Flexport
+                                Open APIs and Seller Portal, along with the event-driven architecture (AWS SNS / SQS /
+                                Lambda) behind all inbound/receiving flows.</li>
+                            <li>Architected the WebMCP foundation in Seller Portal, exposing app workflows as typed,
+                                agent-callable tools to AI assistants (Chrome extension, Claude) via an auth-gated tool
+                                registry.</li>
+                            <li>Developed a reusable gzip compression middleware for use across services, solving the 6
+                                MB Lambda payload limit by shrinking large API responses ~5–6×.</li>
+                            <li>Tech Stack & Learnings: ReactJS, Haskell, Rescript, SQL, JavaScript, AWS (Lambda, ECS,
+                                SNS, SQS, Kinesis, RDS), MCP.</li>
+                        </ul>
                         </p>
                     </div>
-                </div>  
+                </div>
+
+
+                <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class="bx bxs-calendar"></i>July 2024 - July 2025 </div>
+                        <h3> Software Engineer - JUSPAY</h3>
+                        <p>
+                        <ul>
+                            <li>Full-stack developer specializing in building scalable, high-performance payment
+                                solutions for the fintech industry. </li>
+                            <li>Redesigned and restructured the frontend codebase, transforming it into a scalable
+                                architecture, reducing development time by 60% for new payment gateway integrations.
+                            </li>
+                            <li>Developed and maintained high-performance RESTful APIs, optimized database schemas, and
+                                fine-tuned queries, significantly improving API performance and reducing latency.</li>
+                            <li>Led end-to-end ownership of the Gateways module in the Juspay Dashboard, enabling
+                                merchants to configure multiple payment gateways and select payment methods seamlessly.
+                            </li>
+                            <li>Provided on-call support for critical P0/Sev issues, collaborating with cross-functional
+                                teams (Product, Business, and Operations) to resolve incidents and ensure smooth payment
+                                processing.</li>
+                            <li>Tech Stack & Learnings: ReactJS, Haskell, Rescript, SQL, JavaScript.</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
 
                 <div class="education-content">
                     <div class="content">
                         <div class="year"><i class="bx bxs-calendar"></i>May 2023 - July 2023</div>
                         <h3> Software Engineer Intern - MATHWORKS</h3>
                         <p>
-                            <ul>
-                                <li>Worked in the Adaptive AUTOSAR and Linux Deployment Team, focusing on optimizing software deployment processes. </li>
-                                <li>Improved environment setup and teardown efficiency on Linux target machines by integrating them into SharedFeature, reducing redundancy and enhancing automation.</li>
-                                <li>Developed five key automation features, including Linux Distribution Installation, User Creation, Docker in WSL, OpenSSH Configuration, and ZIP Package Management, streamlining Windows machine setup for development and testing</li>
-                                <li>Led the migration of Debian-based Linux distributions to RPM-based systems, ensuring compatibility and improving deployment efficiency.</li>
-                                <li>Tech Stack & Learnings: Docker, C++, MATLAB, Linux, WSL.</li>
-                            </ul>
+                        <ul>
+                            <li>Worked in the Adaptive AUTOSAR and Linux Deployment Team, focusing on optimizing
+                                software deployment processes. </li>
+                            <li>Improved environment setup and teardown efficiency on Linux target machines by
+                                integrating them into SharedFeature, reducing redundancy and enhancing automation.</li>
+                            <li>Developed five key automation features, including Linux Distribution Installation, User
+                                Creation, Docker in WSL, OpenSSH Configuration, and ZIP Package Management, streamlining
+                                Windows machine setup for development and testing</li>
+                            <li>Led the migration of Debian-based Linux distributions to RPM-based systems, ensuring
+                                compatibility and improving deployment efficiency.</li>
+                            <li>Tech Stack & Learnings: Docker, C++, MATLAB, Linux, WSL.</li>
+                        </ul>
                         </p>
                     </div>
-                </div>                
+                </div>
             </div>
         </div>
-    </div>
+        </div>
     </section>
 
-     <!-- Project section  -->
-     <section>
+    <!-- Project section  -->
+    <section>
         <div class="education-column right" id="project">
             <h2 class="heading"><span>Projects</span></h2>
             <div class="education-box">
@@ -131,53 +187,73 @@
                     <div class="content">
                         <h3>Chat Application</h3>
                         <p>
-                            <ul>
-                                <li>Built an online chat application using React, Node-Js, Express and MongoDB.</li>
-                                <li>This web enables users to engage in real time chat application along with features like display picture, emojis, user
-                                    registration, login and along with reset password feature.</li>
-                                <li> Implemented authentication and enhanced security through Bcrypt.</li>
-                            </ul>
+                        <ul>
+                            <li>Full-stack developer specializing in building scalable, high-performance payment
+                                solutions for the fintech industry. </li>
+                            <li>Redesigned and restructured the frontend codebase, transforming it into a scalable
+                                architecture, reducing development time by 60% for new payment gateway integrations.
+                            </li>
+                            <li>Developed and maintained high-performance RESTful APIs, optimized database schemas, and
+                                fine-tuned queries, significantly improving API performance and reducing latency.</li>
+                            <li>Led end-to-end ownership of the Gateways module in the Juspay Dashboard, enabling
+                                merchants to configure multiple payment gateways and select payment methods seamlessly.
+                            </li>
+                            <li>Provided on-call support for critical P0/Sev issues, collaborating with cross-functional
+                                teams (Product, Business, and Operations) to resolve incidents and ensure smooth payment
+                                processing.</li>
+                            <li>Tech Stack & Learnings: ReactJS, Haskell, Rescript, SQL, JavaScript.</li>
+                        </ul>
                         </p>
                     </div>
-                </div>  
+                </div>
 
                 <div class="education-content">
                     <div class="content">
                         <h3>USER MANAGEMENT SYSTEM</h3>
                         <p>
-                            <ul>
-                                <li>Designed and Implemented a robust User Management System using the MERN stack. </li>
-                                <li>Implemented User registration, login with secure authentication using JWT token and leveraged Mongoose for
-                                    database schema modeling.</li>
-                                <li>Developed an application with CRUD functionalities for customer data management, enhancing my database
-                                    skills.</li>
-                            </ul>
+                        <ul>
+                            <li>Worked in the Adaptive AUTOSAR and Linux Deployment Team, focusing on optimizing
+                                software deployment processes. </li>
+                            <li>Improved environment setup and teardown efficiency on Linux target machines by
+                                integrating them into SharedFeature, reducing redundancy and enhancing automation.</li>
+                            <li>Developed five key automation features, including Linux Distribution Installation, User
+                                Creation, Docker in WSL, OpenSSH Configuration, and ZIP Package Management, streamlining
+                                Windows machine setup for development and testing</li>
+                            <li>Led the migration of Debian-based Linux distributions to RPM-based systems, ensuring
+                                compatibility and improving deployment efficiency.</li>
+                            <li>Tech Stack & Learnings: Docker, C++, MATLAB, Linux, WSL.</li>
+                        </ul>
                         </p>
                     </div>
-                </div>  
-                
+                </div>
+
                 <div class="education-content">
                     <div class="content">
                         <h3>FLIGHT DELAY PREDICTION (ML Project)</h3>
                         <p>
-                            <ul>
-                                <li>Created a model which predicts whether a flight will experience delays or not using Machine Learning Algorithm.</li>
-                                <li>It includes Data Processing and Cleaning,Visualisation and Prediction which attained accuracy of 93%</li>
-                                <li>Tech Stack & Learnings: Machine Learning, Python, Pandas, Matplotlib</li>
-                            </ul>
+                        <ul>
+                            <li>Created a model which predicts whether a flight will experience delays or not using
+                                Machine Learning Algorithm.</li>
+                            <li>It includes Data Processing and Cleaning,Visualisation and Prediction which attained
+                                accuracy of 93%</li>
+                            <li>Tech Stack & Learnings: Machine Learning, Python, Pandas, Matplotlib</li>
+                        </ul>
                         </p>
                     </div>
                 </div>
-            
+
                 <div class="education-content">
                     <div class="content">
-                        <h3>SPRITE MOVEMENT</h3>
+                        <h3>SPRITE MOVEMENT (Frontend Project)</h3>
                         <p>
-                            <ul>
-                                <li>Developed an interactive frontend web application for controlling a sprite's movement, rotation, size, color, and visibility using Javascript, Redux, and TailwindCSS.</li>
-                                <li>Implemented an action logging system to track user interactions, enabling users to replay actions based on a selected log entry.</li>
-                                <li>Designed an intuitive UI with real-time updates using Redux state management for a seamless user experience.</li>
-                            </ul>
+                        <ul>
+                            <li>Developed an interactive frontend web application for controlling a sprite's movement,
+                                rotation, size, color, and visibility using Javascript, Redux, and TailwindCSS.</li>
+                            <li>Implemented an action logging system to track user interactions, enabling users to
+                                replay actions based on a selected log entry.</li>
+                            <li>Designed an intuitive UI with real-time updates using Redux state management for a
+                                seamless user experience.</li>
+                        </ul>
                         </p>
                     </div>
                 </div>
@@ -186,30 +262,34 @@
                     <div class="content">
                         <h3>INTRUSION ALERT SYSTEM</h3>
                         <p>
-                            <ul>
-                                <li>Developed an Intrusion Alert System using Raspberry Pi and Python, capable of detecting unauthorized access and notifying users in real-time.</li>
-                                <li>Integrated a PIR (Passive Infrared) sensor and Pi Camera to detect motion and capture images of intruders.</li>
-                                <li>Automated real-time alerts by instantly notifying users upon intrusion detection through image capture and alert mechanisms.</li>
-                            </ul>
+                        <ul>
+                            <li>Developed an Intrusion Alert System using Raspberry Pi and Python, capable of detecting
+                                unauthorized access and notifying users in real-time.</li>
+                            <li>Integrated a PIR (Passive Infrared) sensor and Pi Camera to detect motion and capture
+                                images of intruders.</li>
+                            <li>Automated real-time alerts by instantly notifying users upon intrusion detection through
+                                image capture and alert mechanisms.</li>
+                        </ul>
                         </p>
                     </div>
                 </div>
 
                 <div class="education-content">
                     <div class="content">
-                        <h3>SCORECARD</h3>
+                        <h3>SCORECARD - Course Project</h3>
                         <p>
-                            <ul>
-                                <li>Performed data analysis on the commentary of a cricket match from Cricbuzz and generated a comprehensive scorecard with all features similar to Cricbuzz.</li>
-                                <li>Tech Stack & Learnings: Python, Pandas, Numpy, Matplotlib</li>
-                            </ul>
+                        <ul>
+                            <li>Performed data analysis on the commentary of a cricket match from Cricbuzz and generated
+                                a comprehensive scorecard with all features similar to Cricbuzz.</li>
+                            <li>Tech Stack & Learnings: Python, Pandas, Numpy, Matplotlib</li>
+                        </ul>
                         </p>
                     </div>
                 </div>
 
             </div>
         </div>
-    </div>
+        </div>
     </section>
 
     <!-- Skills section  -->
@@ -217,78 +297,84 @@
         <h2 class="heading">Skills and Achievements</h2>
         <div class="tech-categories">
             <div class="tech-category">
-                <h3>Languages </h3>
+                <h3>Languages & Fundamentals</h3>
                 <ul>
-                    <li>C++, Python, JavaScript, Haskell, Rescript, C </li>
+                    <li>JavaScript, TypeScript, C++, Haskell, Python, Java, DSA, System Design (LLD & HLD), DBMS, OS, OOP</li>
                 </ul>
             </div>
             <div class="tech-category">
-                <h3>Technologies</h3>
+                <h3>Cloud, Dev & AI</h3>
                 <ul>
-                    <li>ReactJS, NodeJS, Java, Python, SQL, MongoDB, Linux, Docker(basics), ExpressJs, OOPS, OS, DBMS, Data Visualization  (Pandas, Matplotlib, Numpy) </li>
+                    <li>AWS (Lambda, SQS, SNS, ECS, RDS), Docker, Terraform, Node.js, React, MongoDB, REST APIs,
+                        MySQL, Kinesis, API Gateway, Snowflake, MCP, OpenSearch</li>
                 </ul>
             </div>
             <div class="tech-category">
                 <h3>Achievements</h3>
                 <ul>
-                    <li>Achieved 4-STAR rating on CodeChef and Specialist rank on Codeforces Platform in Competitive programming.</li>
-                    <li>Achieved highest rating of 2018 (Top 2.81%) and reached Level Knight on the LeetCode platform.</li>
+                    <li>Achieved 4-STAR rating on CodeChef and Specialist rank on Codeforces Platform in Competitive
+                        programming.</li>
+                    <li>Achieved highest rating of 2018 (Top 2.81%) and reached Level Knight on the LeetCode platform.
+                    </li>
                     <li>Achieved a 0.96 percentile rank among over 8.69 Lakh aspirants in JEE Mains 2020.</li>
-                    <li>Achieved a rank of 6578 out of more than 1.5 lakh candidates in JEE Advanced 2020 (IIT). </li>
+                    <li>Achieved a rank of 5750 out of more than 1.5 lakh candidates in JEE Advanced 2020 (IIT). </li>
                 </ul>
             </div>
         </div>
     </section>
-    
+
 
     <!-- portfolio section design -->
-<section class="portfolio" id="portfolio">
-    <h2 class="heading"><span>Education</span></h2>
-    <div class="education-box">
-        <div class="education-content">
-            <div class="content">
-                <div class="year"><i class="bx bxs-calendar"></i>Aug 2020 - May 2024</div>
-                <h3>Indian Institute of Technology (IIT) Patna</h3>
-                <p>
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading"><span>Education</span></h2>
+        <div class="education-box">
+            <div class="education-content">
+                <div class="content">
+                    <div class="year"><i class="bx bxs-calendar"></i>Aug 2020 - May 2024</div>
+                    <h3>Indian Institute of Technology (IIT) Patna</h3>
+                    <p>
                     <ul>
                         <li>B.Tech in Electrical and Electronics Engineering</li>
                         <li>CPI - 8/10</li>
                     </ul>
-                </p>
+                    </p>
+                </div>
             </div>
-        </div>   
-        <div class="education-content">
-            <div class="content">
-                <div class="year"><i class="bx bxs-calendar"></i>June 2018 - July 2020</div>
-                <h3>Sri Chaitanya Educational Institutions</h3>
-                <p>
+            <div class="education-content">
+                <div class="content">
+                    <div class="year"><i class="bx bxs-calendar"></i>June 2018 - July 2020</div>
+                    <h3>Sri Chaitanya Educational Institutions</h3>
+                    <p>
                     <ul>
                         <li>Board of Intermediate Education T.S, Hyderabad</li>
                         <li>Marks - 970/1000</li>
                     </ul>
-                </p>
+                    </p>
+                </div>
             </div>
-        </div>   
-    </div>
-</div>
-</section>
+        </div>
+        </div>
+    </section>
 
     <!-- Footer -->
     <footer class="footer" style="display: flex; justify-content: space-between; align-items: center; padding: 1rem;">
         <div class="btn-box">
-            <a href="https://drive.google.com/file/d/19BbK2Wgrq7hkwfB4GonWAbazEGaETYzn/view" class="btn" target="_blank">Resume</a>
-            
-            <a href="https://www.linkedin.com/in/srivardhan-rao-978556225/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+            <a href="https://drive.google.com/file/d/19BbK2Wgrq7hkwfB4GonWAbazEGaETYzn/view" class="btn"
+                target="_blank">Resume</a>
+
+            <a href="https://www.linkedin.com/in/srivardhan-rao-978556225/" target="_blank"><i
+                    class="bx bxl-linkedin"></i></a>
             <a href="https://github.com/srivardhan123" target="_blank"><i class='bx bxl-github'></i></a>
         </div>
-        
+
         <div>
             <p>Copyright &copy; 2025 by Vardhan | All Rights Reserved.</p>
             <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
         </div>
     </footer>
-    
+
 
     <script src="app.js"></script>
 </body>
+
 </html>
